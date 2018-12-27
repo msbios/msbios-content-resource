@@ -31,13 +31,13 @@ class TextPageForm extends Form
             'name' => 'slug'
         ])->add([
             'type' => Element\Text::class,
-            'name' => 'mtitle'
+            'name' => 'metaTitle'
         ])->add([
             'type' => Element\Text::class,
-            'name' => 'mkeywords'
+            'name' => 'metaKeywords'
         ])->add([
             'type' => Element\Text::class,
-            'name' => 'mdescription'
+            'name' => 'metaDescription'
         ])->add([
             'type' => Element\Textarea::class,
             'name' => 'content'
